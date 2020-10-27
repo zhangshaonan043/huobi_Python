@@ -4,5 +4,6 @@ python:
 install:
   - pip install -r requirements.txt
   - pip install .
-script: pytest --ignore
+script: pytest --ignore=tests/test_foobar.py
+
 
